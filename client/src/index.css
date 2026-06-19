@@ -1,0 +1,40 @@
+/* tailwind configuraion */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Days+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&family=Krona+One&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Devanagari:wdth@87.5&family=Oswald&family=Oxygen:wght@300;400;700&family=Playwrite+CL+Guides&family=Playwrite+IT+Moderna+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+@import "~leaflet/dist/leaflet.css";
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  display: block;
+}
+
+.leaflet-container a {
+  color: #0078A8;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 4px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.womenbg{
+    background-image: url('./assets/womenBg.webp');
+    height: 100vh;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
